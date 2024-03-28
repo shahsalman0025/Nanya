@@ -12,7 +12,7 @@
     --primary-color3: rgb(215, 182, 121);
     --primary-light2: #fbf8f6;
     --primary-light: rgba(222, 160, 87, 0.15);
-    --dark: #202020;
+    --dark: #004AAD;
     --dark2: #1B1B1B;
     --dark3: #1B1B22;
     --dark-mode-bg: #27272E;
@@ -26,7 +26,7 @@
     --text-light: #9B9B9B;
     --light-bg: #F8F8F8;
     --dark-bg: #0A120F;
-    --dark--bg: #0A120F;
+    --dark--bg: #9B9B9B;
     --white: #fff;
     --font-lora: "Lora", serif;
     --font-exo: "Exo", sans-serif
@@ -278,7 +278,7 @@ i.bx {
     font-size: 3rem;
     font-weight: 700;
     color: #dea057;
-    background: -webkit-linear-gradient(40deg, #202020 0%, #DEA054 80%);
+    background: -webkit-linear-gradient(40deg, #004AAD 0%, #DEA054 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
@@ -547,7 +547,7 @@ i.bx {
 
 .btn--primary {
     background: var(--primary-color1);
-    color: var(--dark);
+    color: #000;
     border-radius: 0;
     position: relative;
     z-index: 1
@@ -1933,7 +1933,7 @@ header.style-2 .main-nav ul li.menu-item-has-children>i {
 }
 
 header.style-3 {
-    background-color: transparent;
+    background-color: transparent !important;
     width: 100%;
     z-index: 99;
     padding: 0 10%;
@@ -1941,7 +1941,7 @@ header.style-3 {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: 80px;
+    top: 40px;
     left: 0;
     right: 0
 }
@@ -2015,8 +2015,8 @@ header.style-3 .header-logo {
 }
 
 header.style-3 .header-logo img {
-    min-width: 120px;
-    max-width: 100%
+    /* min-width: 120px;
+    max-width: 100% */
 }
 
 header.style-3 .main-nav {
@@ -2041,9 +2041,9 @@ header.style-3 .main-nav ul li {
 
 header.style-3 .main-nav ul li a {
     font-size: 16px;
-    color: #fff;
-    font-weight: 500;
-    line-height: 26px;
+    color: #000;
+    font-weight: 700;
+    line-height: 20px;
     display: block;
     text-transform: capitalize;
     padding: 30px 0;
